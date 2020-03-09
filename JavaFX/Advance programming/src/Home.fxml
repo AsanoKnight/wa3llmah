@@ -11,7 +11,7 @@
          <center>
             <ImageView fitHeight="380.0" fitWidth="366.0" BorderPane.alignment="CENTER">
                <image>
-                  <Image url="@../../../../../../../../AppData/Local/Temp/icons8_hand_up_50px.png" />
+                  <Image url="@../../../../../../../../AppData/Local/Temp/icons8_middle_finger_48px.png" />
                </image>
             </ImageView>
          </center></BorderPane>
