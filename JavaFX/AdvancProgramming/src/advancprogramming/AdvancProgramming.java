@@ -21,6 +21,7 @@ public class AdvancProgramming extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
+        System.out.println("hi mahir");
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
