@@ -22,9 +22,11 @@ public class AdvancProgramming extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         System.out.println("aojfao[fj");
         System.out.println("aojfaogaga[fj");
-        System.out.println("aojfaoadfadf[fj");
+        System.out.println("aojfaoadfatdf[fj");
         System.out.println("aojfasdfsdfso[fj");
         System.out.println("aojfasdfo[fj");
+        System.out.println("aojsdfsdfsfao[fj");
+        System.out.println("aojsdfsdfsfao[fj");
         System.out.println("aojsdfsdfsfao[fj");
         Scene scene = new Scene(root);
         
