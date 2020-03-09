@@ -20,6 +20,7 @@ public class AdvancProgramming extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        System.out.println(" f*******");
         
         Scene scene = new Scene(root);
         
@@ -31,6 +32,7 @@ public class AdvancProgramming extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         launch(args);
     }
     
