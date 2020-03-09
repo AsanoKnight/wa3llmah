@@ -20,7 +20,7 @@ public class AdvancProgramming extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+        System.out.println("fuck you");
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
