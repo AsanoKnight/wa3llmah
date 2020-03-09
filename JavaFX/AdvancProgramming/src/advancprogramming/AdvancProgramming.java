@@ -23,6 +23,14 @@ public class AdvancProgramming extends Application {
         
         System.out.println(" f**************");
         
+        System.out.println("aojfao[fj");
+        System.out.println("aojfaogaga[fj");
+        System.out.println("aojfaoadfatdf[fj");
+        System.out.println("aojfasdfsdfso[fj");
+        System.out.println("aojfasdfo[fj");
+        System.out.println("aojsdfsdfsfao[fj");
+        System.out.println("aojsdfsdfsfao[fj");
+        System.out.println("aojsdfsdfsfao[fj");
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
@@ -33,6 +41,7 @@ public class AdvancProgramming extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         
         launch(args);
     }
