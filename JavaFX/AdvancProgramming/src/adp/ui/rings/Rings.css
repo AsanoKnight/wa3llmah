@@ -1,0 +1,41 @@
+/*50:   #e0f2f1
+100:  #b2dfdb
+200:  #80cbc4
+300:  #4db6ac
+400:  #26a69a
+500:  #009688
+600:  #00897b
+700:  #00796b
+800:  #00695c
+900:  #004d40
+A100: #a7ffeb
+A200: #64ffda
+A400: #1de9b6
+A700: #00bfa5*/
+.button1{
+    -fx-background-color: #009688;
+    -fx-text-fill:#ffffff;
+}
+.button1:hover{
+    -fx-text-fill:#431FA0;
+}
+.button1:pressed{
+    -fx-text-fill:#80AFF5;
+
+}
+.linear-grad{
+    -fx-background-color:linear-gradient(to bottom left,#009688,#00776B)
+}
+.linear-grad1{
+    -fx-background-color:linear-gradient(to bottom left,#C6E7E4,#fff)
+}
+.button2{
+    -fx-background-color:#B5CBEB;
+    -fx-background-radius: 5;
+    -fx-text-fill:#371897;
+    -fx-border-color: #6F4CBB;
+    -fx-border-radius: 5;
+}
+.button2:hover{
+    -fx-background-color:#E4EEFD;
+}
