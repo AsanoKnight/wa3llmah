@@ -20,19 +20,7 @@ public class AdvancProgramming extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        System.out.println("dont fuck");
         
-        
-        System.out.println(" f**************");
-        
-        System.out.println("aojfao[fj");
-        System.out.println("aojfaogaga[fj");
-        System.out.println("aojfaoadfatdf[fj");
-        System.out.println("aojfasdfsdfso[fj");
-        System.out.println("aojfasdfo[fj");
-        System.out.println("aojsdfsdfsfao[fj");
-        System.out.println("aojsdfsdfsfao[fj");
-        System.out.println("aojsdfsdfsfao[fj");
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
