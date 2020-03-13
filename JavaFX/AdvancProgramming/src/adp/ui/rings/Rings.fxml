@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="800.0" stylesheets="@../../CssHotel.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="adp.ui.ring.RingsController">
+   <children>
+      <Pane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fff;">
+         <children>
+            <JFXButton fx:id="btnHalaqa" layoutX="20.0" layoutY="130.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <Pane prefHeight="85.0" prefWidth="800.0" styleClass="button1" stylesheets="@Rings.css">
+               <children>
+                  <ImageView layoutX="12.0" layoutY="11.0">
+                     <image>
+                        <Image url="@../../../Imegs/settings_64px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <JFXButton fx:id="btnHalaqa" layoutX="170.0" layoutY="250.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnHalaqa" layoutX="20.0" layoutY="250.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnHalaqa" layoutX="620.0" layoutY="130.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnHalaqa" layoutX="470.0" layoutY="130.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnHalaqa" layoutX="320.0" layoutY="130.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnHalaqa" layoutX="170.0" layoutY="130.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnHalaqa" layoutX="470.0" layoutY="250.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnHalaqa" layoutX="320.0" layoutY="250.0" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" text="Halaqa">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnAddRing" layoutX="620.0" layoutY="250.0" onAction="#AddRing" prefHeight="80.0" prefWidth="130.0" styleClass="button1" stylesheets="@Rings.css" />
+            <ImageView fx:id="imgAddRing" layoutX="653.0" layoutY="258.0" onMouseClicked="#AddRing" styleClass="button1">
+               <image>
+                  <Image url="@../../../Imegs/plus_64px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
